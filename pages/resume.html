@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Stefan's Portfolio</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../styles/styles.css">
+
+	<!-- <script src="//code.jquery.com/jquery.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+    <script src="../javascripts/liquidFillGauge.js" language="JavaScript"></script>
+    <style>
+        .liquidFillGaugeText { font-family: Helvetica; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+	<nav class="navbar navbar-default" id="nav-placeholder">
+	  <div class="container container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="../index.html">Stefan</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="../index.html">Home</a></li>
+	        <li class="dropdown">
+	         <!--  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Action</a></li>
+	            <li><a href="#">Another action</a></li>
+	            <li><a href="#">Something else here</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Separated link</a></li>
+	          </ul> -->
+	        </li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+<div class="container container-fluid">
+	<header>
+		<ul>
+			<li>Sydney, NSW, Australia</li>
+			<li>(+61) 0467 569 203</li>
+			<li><a class="linkme" href="mailto:stefan.piatkov@gmail.com" target="_top">stefan.piatkov@gmail.com</a></li>
+			<li><a class="linkme" href="https://github.com/AR8Stefan">https://github.com/AR8Stefan</a></li>
+		</ul>
+	</header>
+		
+	<main>
+		<h2>Stefan Piatkov</h2>
+		<hr>
+
+		<div> <!-- SKL -->
+	  	<h3><u>SKILLS & STRENGTHS</u></h3> 
+		  <div class="skill-list">
+		  	<div class="row">
+		  		<div class="skill col-md-6 col-xs-12">
+						<p>Git.</p>
+						<svg class="spin" id="fillgauge1" width="30%" height="150"></svg>
+					</div>
+
+					<div class="skill col-md-6 col-xs-12">
+						<p>HTML5</p>
+						<svg class="spin" id="fillgauge2" width="30%" height="150"></svg>
+					</div>
+
+					<div class="skill col-md-6 col-xs-12">
+						<p>CSS3</p>
+						<svg class="spin" id="fillgauge3" width="30%" height="150"></svg>
+					</div>
+
+					<div class="skill col-md-6 col-xs-12">
+						<p>JavaScript</p>
+						<svg class="spin" id="fillgauge4" width="30%" height="150"></svg>
+					</div>
+
+					<div class="skill col-md-6 col-xs-12">
+						<p>React.JS</p>
+						<svg class="spin" id="fillgauge5" width="30%" height="150"></svg>
+					</div>
+
+					<div class="skill col-md-6 col-xs-12">
+						<p>Ruby</p>
+						<svg class="spin" id="fillgauge6" width="30%" height="150"></svg>
+					</div>
+
+					<div class="skill col-md-6 col-xs-12">
+						<p>Ruby on Rails 5</p> 
+						<svg class="spin" id="fillgauge7" width="30%" height="150"></svg>
+					</div>
+
+					<div class="skill col-md-6 col-xs-12">
+						<p>Teamwork.</p>
+						<svg class="spin" id="fillgauge8" width="30%" height="150"></svg>
+					</div>
+
+					<div class="skill col-md-6 col-xs-12">
+						<p>Enjoy Challenges & Problem Solving.</p>
+						<svg class="spin" id="fillgauge9" width="30%" height="150"></svg>
+					</div>
+				</div> 
+			</div>
+		</div> <!-- /SKL -->
+
+		<div class="exp"> <!-- EXP -->
+			<h3><u>EXPERIENCE</u></h3>
+
+			<div>
+				<h4>
+					Dev Hause X - Sydney, Ultimo — Intern July 2017 - August 2017
+				</h4>
+
+				<ul>
+					<li>Problem solving.</li>
+					<li>Paired Programming.</li>
+					<li>Presentations.</li>
+				</ul>
+			</div>
+
+			<h4>
+				Bossley Park High School - Sydney, Bossley Park — IT Support February 2013 - July 2013
+			</h4>
+				<ul>
+					<li>Create and deploy an ‘image’ over a network to multiple PCs.</li>
+					<li>Assist when needed.</li>
+					<li>Symple Setting - Construction — Labourer August 2013 - July 2016</li>
+					<li>Lifting and Securing heavy sheets.</li>
+					<li>Keeping floors clean of nails and screws.</li>
+					<li>Other duties as directed.</li>
+				</ul>
+		</div> <!-- /EXP -->
+
+		<div class="edu"> <!-- EDU -->
+			<h3><u>EDUCATION</u></h3>
+				<p>Coder Academy - Ultimo, Sydney — Diploma February 2017 - June 2017 - Fast Track.</p>
+				<p>TAFE - Lidcombe, Sydney — Diploma February 2013 - July 2013 - I.T. Networking.</p>
+				<p>TAFE - Ultimo, Sydney — Cert. 3 & 4 February 2012 - December 2012 - I.T. Networking.</p>
+		</div> <!-- /EDU -->
+
+			<a class="linkme" href="#" download="../Resume.pdf">Download My Resumé</a>
+	</main>
+</div>
+
+	<footer>
+	  <div class="container container-fluid">
+	    <div class="footer nav navbar-nav">
+	      <li><a href="#">Stefan</a></li>
+	      <li><a href="pages/resume.html">Resumé</a></li>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</footer>
+
+</body>
+
+<script language="JavaScript">
+    var gauge1 = loadLiquidFillGauge("fillgauge1", 85); // Git
+    var config1 = liquidFillGaugeDefaultSettings();
+    config1.circleColor = "#FF7777";
+    config1.textColor = "#FF4444";
+    config1.waveTextColor = "#FFAAAA";
+    config1.waveColor = "#FFDDDD";
+    config1.circleThickness = 0.2;
+    config1.textVertPosition = 0.2;
+    config1.waveAnimateTime = 1000;
+    config1.waveHeight = 0.5;
+    config1.waveCount = 1;
+
+    var gauge1 = loadLiquidFillGauge("fillgauge2", 90); //HTML
+    var config1 = liquidFillGaugeDefaultSettings();
+    config1.circleColor = "#FF7777";
+    config1.textColor = "#FF4444";
+    config1.waveTextColor = "#FFAAAA";
+    config1.waveColor = "#FFDDDD";
+    config1.circleThickness = 0.2;
+    config1.textVertPosition = 0.2;
+    config1.waveAnimateTime = 1000;
+    config1.waveHeight = 0.3;
+    config1.waveCount = 1;
+
+    var gauge1 = loadLiquidFillGauge("fillgauge3", 90); //CSS
+    var config1 = liquidFillGaugeDefaultSettings();
+    config1.circleColor = "#FF7777";
+    config1.textColor = "#FF4444";
+    config1.waveTextColor = "#FFAAAA";
+    config1.waveColor = "#FFDDDD";
+    config1.circleThickness = 0.2;
+    config1.textVertPosition = 0.2;
+    config1.waveAnimateTime = 1000;
+    config1.waveHeight = 0.3;
+    config1.waveCount = 1;
+
+    var gauge1 = loadLiquidFillGauge("fillgauge4", 75); //JS
+    var config1 = liquidFillGaugeDefaultSettings();
+    config1.circleColor = "#FF7777";
+    config1.textColor = "#FF4444";
+    config1.waveTextColor = "#FFAAAA";
+    config1.waveColor = "#FFDDDD";
+    config1.circleThickness = 0.2;
+    config1.textVertPosition = 0.2;
+    config1.waveAnimateTime = 1000;
+    config1.waveHeight = 0.3;
+    config1.waveCount = 1;
+
+    var gauge1 = loadLiquidFillGauge("fillgauge5", 68); //React
+    var config1 = liquidFillGaugeDefaultSettings();
+    config1.circleColor = "#FF7777";
+    config1.textColor = "#FF4444";
+    config1.waveTextColor = "#FFAAAA";
+    config1.waveColor = "#FFDDDD";
+    config1.circleThickness = 0.2;
+    config1.textVertPosition = 0.2;
+    config1.waveAnimateTime = 1000;
+    config1.waveHeight = 0.3;
+    config1.waveCount = 1;
+
+    var gauge1 = loadLiquidFillGauge("fillgauge6", 50); //Ruby
+    var config1 = liquidFillGaugeDefaultSettings();
+    config1.circleColor = "#FF7777";
+    config1.textColor = "#FF4444";
+    config1.waveTextColor = "#FFAAAA";
+    config1.waveColor = "#FFDDDD";
+    config1.circleThickness = 0.2;
+    config1.textVertPosition = 0.2;
+    config1.waveAnimateTime = 1000;
+    config1.waveHeight = 0.3;
+    config1.waveCount = 1;
+
+    var gauge1 = loadLiquidFillGauge("fillgauge7", 62); //Rails
+    var config1 = liquidFillGaugeDefaultSettings();
+    config1.circleColor = "#FF7777";
+    config1.textColor = "#FF4444";
+    config1.waveTextColor = "#FFAAAA";
+    config1.waveColor = "#FFDDDD";
+    config1.circleThickness = 0.2;
+    config1.textVertPosition = 0.2;
+    config1.waveAnimateTime = 1000;
+    config1.waveHeight = 0.3;
+    config1.waveCount = 1;
+
+    var gauge1 = loadLiquidFillGauge("fillgauge8", 95); //Teamwork
+    var config1 = liquidFillGaugeDefaultSettings();
+    config1.circleColor = "#FF7777";
+    config1.textColor = "#FF4444";
+    config1.waveTextColor = "#FFAAAA";
+    config1.waveColor = "#FFDDDD";
+    config1.circleThickness = 0.2;
+    config1.textVertPosition = 0.2;
+    config1.waveAnimateTime = 1000;
+    config1.waveHeight = 0.3;
+    config1.waveCount = 1;
+
+    var gauge1 = loadLiquidFillGauge("fillgauge9", 89); //Challenges/Problem solving
+    var config1 = liquidFillGaugeDefaultSettings();
+    config1.circleColor = "#FF7777";
+    config1.textColor = "#FF4444";
+    config1.waveTextColor = "#FFAAAA";
+    config1.waveColor = "#FFDDDD";
+    config1.circleThickness = 0.2;
+    config1.textVertPosition = 0.2;
+    config1.waveAnimateTime = 1000;
+    config1.waveHeight = 0.3;
+    config1.waveCount = 1;
+
+    var gauge1 = loadLiquidFillGauge("fillgauge10", 55);
+    var config1 = liquidFillGaugeDefaultSettings();
+    config1.circleColor = "#FF7777";
+    config1.textColor = "#FF4444";
+    config1.waveTextColor = "#FFAAAA";
+    config1.waveColor = "#FFDDDD";
+    config1.circleThickness = 0.2;
+    config1.textVertPosition = 0.2;
+    config1.waveAnimateTime = 1000;
+    config1.waveHeight = 0.3;
+    config1.waveCount = 1;
+
+    function NewValue(){
+        if(Math.random() > .5){
+            return Math.round(Math.random()*100);
+        } else {
+            return (Math.random()*100).toFixed(1);
+        }
+    }
+</script>
+
+</html>
