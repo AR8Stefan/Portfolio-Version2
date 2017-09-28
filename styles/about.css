@@ -1,4 +1,16 @@
 /***********************************************
+FONTS & TEXT
+***********************************************/
+
+h1, h2, h3, h4, h5, h6, p, li {
+	font-family: 'Overpass Mono', monospace;
+}
+
+a { 
+    font-family: 'Karla', sans-serif;
+}
+
+/***********************************************
 NAVIGATION - Navbat
 ***********************************************/
 
@@ -18,14 +30,19 @@ GENERAL
 	line-height: 2.2rem;
 }
 
+.hobbies>li {
+	flex-direction: row;
+	justify-content: space-around;
+}
+
 h2, h4{
 	text-align: left;
 	margin-bottom: 24px;
-	justify-content: space-around;
 }
 
 p {
 	margin: 22px 0;
+	text-align: left;
 }
 
 
