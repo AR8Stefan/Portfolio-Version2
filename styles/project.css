@@ -1,0 +1,141 @@
+/***********************************************
+FONTS & TEXT
+***********************************************/
+
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'Overpass Mono', monospace;
+}
+
+a { 
+    font-family: 'Karla', sans-serif;
+}
+
+/***********************************************
+NAVIGATION - Navbat
+***********************************************/
+
+
+
+/***********************************************
+GENERAL
+***********************************************/
+
+.opening, .about-home, .contact {
+	text-align: center;
+}
+
+.opening {
+	height: 20vh;
+}
+
+.about-home {
+	padding: 20px;
+}
+
+.contact {
+	/*margin: 20px;*/
+	padding: 20px;
+}
+
+header>ul>li {
+	list-style: none;
+}
+
+a {
+	text-align: center;
+}
+
+/***********************************************
+PROJECTS
+***********************************************/
+
+.project-cnt {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+img {
+	max-width: 50%;
+	max-height: 45%;
+}
+
+/***********************************************
+RESUMÉ
+***********************************************/
+
+
+
+/***********************************************
+FOOTER
+***********************************************/
+
+
+
+/***********************************************
+COLOURS
+***********************************************/
+
+/*
+// 38112D - header/intro
+// & contact
+// 231429 - nav/footer & projects
+// 18131C - about
+// EB013B - redness
+// ECDCDC - off-white
+*/
+
+body, .contact {
+  background-color: #38112D;
+  color: #ECDCDC; /* off-white */
+}
+
+.projects, footer {
+	background-color: #231429; /* Dark Purple */
+}
+
+.about-home {
+	background-color: #18131C; /* Black */
+}
+
+a.linkme {
+	color: #EB013B; /* Red */
+	text-decoration: none;
+}
+
+p.navbar-text.navbar-right {
+  color: #ECDCDC; /* off-white */
+}
+
+/********** Navbat **********/
+
+.navbar {
+  background-color: #231429;
+  border: none;
+  
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
+	color: #ECDCDC; /* off-white */
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand:hover {
+	color: #EB013B; /* red */
+}
+
+/********** Footer **********/
+
+.nav>li>a:focus, .nav>li>a:hover {
+	background-color: #231429;
+	color: #EB013B; /* red */
+}
+
+.navbar-nav>li>a {
+	color: #ECDCDC; /* off-white */
+}
+
+/***********************************************
+MEDIA QUERIES
+***********************************************/
+
+
+
