@@ -71,18 +71,18 @@
 				<div id="" class="panels">
 					<div class="panel" style="background-image:url(images/ScreenShot1.png)">
 						<p></p>
-						<p>Skill Exchange</p>
-						<p>link</p>
+						<p class="project-name">Skill Exchange</p>
+						<a class="linkme" href="pages/skillexchange.html"><p>View Project</p></a>
 					</div>
 					<div class="panel panel2">
 						<p></p>
-						<p>Street Foods</p>
-						<p>link</p>
+						<p class="project-name">Street Foods</p>
+						<a class="linkme" href=""><p>View Project</p></a>
 					</div>
-					<div class="panel panel3" style="background-image:url(images/ScreenShot2.png)">
+					<div class="panel panel3" style="background-image:url(images/ca-class-challenge.png)">
 						<p></p>
-						<p>Class Challenges</p>
-						<p>link</p>
+						<p class="project-name">Class Challenges</p>
+						<a class="linkme" href="pages/classchallenge.html"><p>View Project</p></a>
 					</div>
 				</div>
 			<!-- /Carousel -->
@@ -119,9 +119,10 @@
 
 	<script>
 
+// Start Text-Shadow
 		const hero = document.querySelector('.hero');
 		const text = hero.querySelector( '.something' );
-		const walk = 50; // 100px
+		const walk = 25; // 100px
 
 		function shadow(e) {
 		  // console.log(e)
@@ -149,7 +150,8 @@
 		}
 
 		hero.addEventListener('mousemove', shadow);
-
+// /Text-Shadow
+// Start Flex-Panels
     const panels = document.querySelectorAll('.panel');
 
     function toggleOpen() {
@@ -164,6 +166,7 @@
 
     panels.forEach(panel => panel.addEventListener('click', toggleOpen));
     panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
+// /Flex-Panels
 
   </script>
 

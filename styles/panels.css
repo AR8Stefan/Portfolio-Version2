@@ -59,8 +59,18 @@ PANEL GALLERY
 .panel.open-active > *:last-child { transform: translateY(0); }
 
 .panel p {
+  font-size: 2em;
+}
+.panel p.project-name {
   text-shadow:0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
   font-size: 2em;
+}
+.panel p:hover {
+  color: #18131C; /* Black */
+}
+.linkme>p:hover {
+  color: #EB013B; /* Red */
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.72);
 }
 .panel p:nth-child(2) {
   font-size: 4em;

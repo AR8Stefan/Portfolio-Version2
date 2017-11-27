@@ -1,6 +1,6 @@
 const hero = document.querySelector('.hero');
 const text = hero.querySelector( '.something' );
-const walk = 200; // 100px
+const walk = 25; // 100px
 
 function shadow(e) {
   // console.log(e)
@@ -22,10 +22,7 @@ function shadow(e) {
   // console.log( xWalk, yWalk );
 
   text.style.textShadow = `
-  ${xWalk}px ${yWalk}px 0 red,
-  ${xWalk * -1}px ${yWalk}px 0 blue,
-  ${yWalk}px ${xWalk * -1}px 0 rgba(128,0,248,0.7),
-  ${yWalk * -1}px ${xWalk}px 0 hotpink
+  ${xWalk}px ${yWalk}px 0 #EB013B
   `;
 
 }

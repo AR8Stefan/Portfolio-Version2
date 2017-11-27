@@ -11,10 +11,21 @@ a {
 }
 
 /***********************************************
-NAVIGATION - Navbat
+NAVIGATION - Navbar
 ***********************************************/
 
 
+
+/***********************************************
+IMAGES
+***********************************************/
+
+.project-image {
+	margin: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
 
 /***********************************************
 GENERAL
@@ -22,6 +33,10 @@ GENERAL
 
 .opening, .about-home, .contact {
 	text-align: center;
+}
+
+.project-title {
+	font-size: 2em;
 }
 
 .opening {
@@ -37,8 +52,33 @@ GENERAL
 	padding: 20px;
 }
 
+.linkme {
+	list-style: none;
+}
+
 header>ul>li {
 	list-style: none;
+}
+
+.team>ul>li {
+	float: left;
+}
+
+p{
+	text-indent: 10px;
+	line-height: 25px;
+}
+
+section>p {
+	margin: 10px;
+	padding-top: 10px;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+
+section:nth-child(2) {
+	float: right;
 }
 
 a {
@@ -55,8 +95,8 @@ PROJECTS
 }
 
 img {
-	max-width: 50%;
-	max-height: 45%;
+	width: 400px;
+	height: 200px;
 }
 
 /***********************************************

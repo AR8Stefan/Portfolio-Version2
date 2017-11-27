@@ -14,9 +14,14 @@ a {
 NAVIGATION - Navbat
 ***********************************************/
 
-.panel {
-		margin: 0;
-	}
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0
+}
+
+.navbar-default {
+	
+}
 
 /***********************************************
 GENERAL
