@@ -61,7 +61,22 @@
 		<div class="container container-fluid">
 
 			<div class="project-cnt row">
-				<div class="project-image col-md-12-offset"><img src="../images/ScreenShot1.png" alt="Project 2 - Class Challenges"></div>
+				<div class="project-image col-md-12-offset">
+					<img id="myImg" src="../images/ScreenShot1.png" alt="Project 1 - Skill Exchange">
+
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- The Close Button -->
+					  <span class="close">&times;</span>
+
+					  <!-- Modal Content (The Image) -->
+					  <img class="modal-content" id="img01">
+
+					  <!-- Modal Caption (Image Text) -->
+					  <div id="caption"></div>
+					</div>
+				</div>
 
 				<div class="col-md-12">
 					<h1>Team:</h1>
@@ -72,7 +87,7 @@
 					</ul>
 				</div>
 
-				<div>
+				<div> <!-- Start sections -->
 					<section class="col-md-5">
 						<h3>Brief:</h3>
 
@@ -103,13 +118,15 @@
 
 							<p>My part of the project was to try a new framework I was not farmiliar with and implement it as best I could into the project. <a class="linkme" href="https://bulma.io/">Bulma</a> was chosen for me to work with.</p>
 
-							<p>I decided to use a template, and modify it for the project we had at hand. </p>
-
-							<p><a class="linkme" href="https://github.com/StrannikAD/CFA-LetsGetGit">This is our project.</a></p>
+							<p>I decided to use a template, and modify it for the project we decided to create together.</p>
 					</section>
-				</div>
+				</div> <!-- /Sections -->
 			</div>
+			
 		</div>
+		<div class="about-home">
+					<p><a class="linkme project-link" href="https://github.com/StrannikAD/CFA-LetsGetGit">This is our project.</a></p>
+			</div>
 	</div>
 
 	<footer>
@@ -120,6 +137,29 @@
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</footer>
+
+	<script type="text/javascript">
+		// Get the modal
+		const modal = document.getElementById('myModal');
+
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		const img = document.getElementById('myImg');
+		const modalImg = document.getElementById("img01");
+		const captionText = document.getElementById("caption");
+		img.onclick = function(){
+		    modal.style.display = "block";
+		    modalImg.src = this.src;
+		    captionText.innerHTML = this.alt;
+		}
+
+		// Get the <span> element that closes the modal
+		const span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() { 
+		  modal.style.display = "none";
+		}
+	</script>
 
 </body>
 </html>

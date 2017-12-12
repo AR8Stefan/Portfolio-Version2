@@ -51,8 +51,8 @@
 
 	<header>
 		<div class="container opening hero">
-			<h1 class="something">
-				Class Challenge App
+			<h1 class="project-title">
+				Project 3: Class Challlenges ~
 			</h1>
 		</div>
 	</header>
@@ -60,47 +60,73 @@
 	<div class="projects">
 		<div class="container container-fluid">
 
-			<div class="project-cnt">
-				<img src="../ScreenShot1.png" alt="Project 2 - Class Challenges">
+			<div class="project-cnt row">
+				<div class="project-image col-md-12-offset">
+					<img id="myImg" src="../images/ca-class-challenge.png" alt="Project 3 - Class Challenges">
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					  <!-- The Close Button -->
+					  <span class="close">&times;</span>
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					  <!-- Modal Content (The Image) -->
+					  <img class="modal-content" id="img01">
 
-				<img src="../ScreenShot2.png" alt="Project 2 - Class Challenges">
+					  <!-- Modal Caption (Image Text) -->
+					  <div id="caption"></div>
+					</div>
+				</div>
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<!-- <div class="col-md-12">
+					<h1>Team:</h1>
+					<ul class="team">
+						<li><a class="linkme" href="https://github.com/EliseYoung22">Elise</a></li>
+						<li><a class="linkme" href="https://github.com/shouheiyamauchi">Shouhei</a></li>
+						<li><a class="linkme" href="https://github.com/StrannikAD">Anna</a></li>
+					</ul>
+				</div> -->
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div> <!-- Start sections -->
+					<section class="col-md-5">
+						<h3>Brief:</h3>
+
+							<p>To have a place for Teachers to share class challenges with students.</p>
+
+						<h3>Our Solution:</h3>
+
+							<p>How to accommodate both students who are struggling and excelling in a classroom.</p>
+
+							<p>This approach is perfectly summarised in our project slogan:</p>
+
+							<p><i>"Everybody has something to offer. Everybody has something to gain."</i></p>
+
+							<p>We figured not everyone is "good" at everything and may be lacking in other skills. Communication, Design, Certain Tech, Etc. </p>
+
+							<p>Our solution was to create an online platform, Skill Exchange, where students are able to take a comprehensive skills quiz to identify any knowledge gaps. Subsequently the result of the quiz pairs them with other students according to both of their learning needs.</p>
+					</section>
+					<section class="col-md-5">
+						<h3>More:</h3>
+
+							<p>As we think everyone has something new to learn and students struggling or excelling will be learning new skills together, it would be a great solution to even out the field in the classroom.</p>
+
+							<p>The idea behind this application was to use IBM's Watson API to generate quizes for your current skill level, and then pair you up with another student(s) who may be more or less experienced in other fields. This will allow students to study with other students in the classroom and learn together.</p>
+
+						<h3>My Part:</h3>
+
+							<p>This hack-a-thon project was thought up by our teacher Jamie just before we started our second major class projects as something to see how far we've come since the beginning of the course in February 2017.</p>
+
+							<p>My part of the project was to try a new framework I was not farmiliar with and implement it as best I could into the project. <a class="linkme" href="https://bulma.io/">Bulma</a> was chosen for me to work with.</p>
+
+							<p>I decided to use a template, and modify it for the project we decided to create together.</p>
+					</section>
+				</div> <!-- /Sections -->
 			</div>
+			
 		</div>
+		<div class="about-home">
+					<p><a class="linkme project-link" href="https://github.com/StrannikAD/CFA-LetsGetGit">This is our project.</a></p>
+			</div>
 	</div>
 
 	<footer>
@@ -111,6 +137,29 @@
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</footer>
+
+	<script type="text/javascript">
+		// Get the modal
+		const modal = document.getElementById('myModal');
+
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		const img = document.getElementById('myImg');
+		const modalImg = document.getElementById("img01");
+		const captionText = document.getElementById("caption");
+		img.onclick = function(){
+		    modal.style.display = "block";
+		    modalImg.src = this.src;
+		    captionText.innerHTML = this.alt;
+		}
+
+		// Get the <span> element that closes the modal
+		const span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() { 
+		  modal.style.display = "none";
+		}
+	</script>
 
 </body>
 </html>
