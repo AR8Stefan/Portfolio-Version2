@@ -6,6 +6,12 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="../styles/resume.css">
+
+	<!---- FONTS ---->
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora|Oswald" rel="stylesheet">
+	<!---- /FONTS ---->
 
 	<!-- <script src="//code.jquery.com/jquery.min.js"></script> -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -20,7 +26,6 @@
     </style>
 </head>
 <body>
-
 	<nav class="navbar navbar-default" id="nav-placeholder">
 	  <div class="container container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
@@ -53,111 +58,214 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 
-<div class="container container-fluid">
-	<header>
-		<ul>
+<div class=""> <!---- Start Resumé ---->
+	<header style="background-color: #D30082; text-align: center; padding: 10 0 10 0;">
+		<div>
+			<h6 id="name"  style="text-transform: uppercase;">Stefan Piatkov</h6>
+			<h6 id="position" class="my-role">Junior web developer</h6>
+			<h6 id="linkedin" class="my-role" ><a style="text-decoration-style: none; color: #ECDCDC" href="https://www.linkedin.com/in/stefan-piatkov-865a4978/">linkedin.com/in/stefan-piatkov-865a4978/</a></h6>
+		</div>
+		<!-- <ul>
 			<li>Sydney, NSW, Australia</li>
 			<li>(+61) 0467 569 203</li>
 			<li><a class="linkme" href="mailto:stefan.piatkov@gmail.com" target="_top">stefan.piatkov@gmail.com</a></li>
 			<li><a class="linkme" href="https://github.com/AR8Stefan">https://github.com/AR8Stefan</a></li>
-		</ul>
+		</ul> -->
 	</header>
 		
-	<main>
-		<h2>Stefan Piatkov</h2>
-		<hr>
+	<div class="main-body"> <!---- Side Pannel ---->
+		<div class="side-section container-fluid">
+			<div class="contacting side-part"> <!-- contacting me -->
+				<h1 class="side-heading">Contact me</h1>
+				<p>phone</p>
+				<p><a class="linkme" href="mailto:stefan.piatkov@gmail.com">stefan.piatkov@gmail.com</a></p>
+				<p><a class="linkme" href="https://github.com/AR8Stefan">github.com/AR8Stefan</a></p>
+			</div> <!-- /contact -->
 
-		<div> <!-- SKL -->
-	  	<h3><u>SKILLS & STRENGTHS</u></h3> 
-		  <div class="skill-list">
-		  	<div class="row">
-		  		<div class="skill col-md-6 col-xs-12">
-						<p>Git.</p>
-						<svg class="spin" id="fillgauge1" width="30%" height="150"></svg>
-					</div>
+			<div class="side-part"> <!-- interests -->
+				<h1  class="side-heading">Interests</h1>
+				<h2>Subscriptions</h2>
+				<ul>
+					<li>eWeb Design Newsletter</li>
+					<li>The Coding Train</li>
+					<li>Fun Fun Function</li>
+				</ul>
+				<h1>Community Groups</h1>
+				<ul>
+					<li>Front-End Engineering Sydney (Canva)</li>
+					<li>more</li>
+					<li>more</li>
+				</ul>
+			</div> <!-- /interests -->
 
-					<div class="skill col-md-6 col-xs-12">
-						<p>HTML5</p>
-						<svg class="spin" id="fillgauge2" width="30%" height="150"></svg>
-					</div>
+			<div class="exp side-part"> <!-- EXP -->
+				<div>
+					<h1 class="side-heading">Experience</h1>
+					<h1>IT Support</h1>
+					<p>Bossley Park High School.</p>
+					<p>February 2013 - July 2013</p>
+					<ul>
+						<li>Created and Deployed an image using the System Preperation Tool for Windows Deployment Services.</li>
+						<li>Setup, connected and configured 40 Windows PCs.</li>
+					</ul>
+				</div>
 
-					<div class="skill col-md-6 col-xs-12">
-						<p>CSS3</p>
-						<svg class="spin" id="fillgauge3" width="30%" height="150"></svg>
-					</div>
-
-					<div class="skill col-md-6 col-xs-12">
-						<p>JavaScript</p>
-						<svg class="spin" id="fillgauge4" width="30%" height="150"></svg>
-					</div>
-
-					<div class="skill col-md-6 col-xs-12">
-						<p>React.JS</p>
-						<svg class="spin" id="fillgauge5" width="30%" height="150"></svg>
-					</div>
-
-					<div class="skill col-md-6 col-xs-12">
-						<p>Ruby</p>
-						<svg class="spin" id="fillgauge6" width="30%" height="150"></svg>
-					</div>
-
-					<div class="skill col-md-6 col-xs-12">
-						<p>Ruby on Rails 5</p> 
-						<svg class="spin" id="fillgauge7" width="30%" height="150"></svg>
-					</div>
-
-					<div class="skill col-md-6 col-xs-12">
-						<p>Teamwork - Agile.</p>
-						<svg class="spin" id="fillgauge8" width="30%" height="150"></svg>
-					</div>
-
-					<div class="skill col-md-6 col-xs-12">
-						<p>Enjoy Challenges & Problem Solving.</p>
-						<svg class="spin" id="fillgauge9" width="30%" height="150"></svg>
-					</div>
-				</div> 
-			</div>
-		</div> <!-- /SKL -->
-
-		<div class="exp"> <!-- EXP -->
-			<h3><u>EXPERIENCE</u></h3>
-
-			<div>
 				<h4>
-					Dev Hause X - Sydney, Ultimo — Intern July 2017 - August 2017
+					Bossley Park High School - Sydney, Bossley Park — IT Support February 2013 - July 2013
 				</h4>
+					<ul>
+						<li>Create and deploy an ‘image’ over a network to multiple PCs.</li>
+						<li>Assist when needed.</li>
+						<li>Symple Setting - Construction — Labourer August 2013 - July 2016</li>
+						<li>Lifting and Securing heavy sheets.</li>
+						<li>Keeping floors clean of nails and screws.</li>
+						<li>Other duties as directed.</li>
+					</ul>
+			</div> <!-- /EXP -->
 
-				<ul>
-					<li>Problem solving.</li>
-					<li>Paired Programming.</li>
-					<li>Presentations.</li>
+			<div class="certificates side-part"> <!-- Certificates -->
+				<div>
+					<h1 class="side-heading">Certificates</h1>
+						<h1>Coder Factory (Diploma)</h1>
+						<p>February 2017 - July 2017</p>
+						<p>Software Development Immersive (Fast-Track)</p>
+				</div>
+				<div>
+						<h1>TAFE (Diploma)</h1>
+						<p>February 2017 - July 2017</p>
+						<p>Software Development Immersive (Fast-Track)</p>
+				</div>
+				<div>
+						<h1>TAFE (CERT. 3 & 4)</h1>
+						<p>February 2017 - July 2017</p>
+						<p>Software Development Immersive (Fast-Track)</p>
+				</div>
+			</div> <!-- /Certs -->
+		</div> <!---- /Side Pannel ---->
+
+		<div class="main container-fluid"> <!---- Main Body ---->
+			<div class="about">
+				<h2 class="main-heading">About me</h2>
+				<p> I am a self-taught developer as I enjoy solving problems and challenges. I recently completed a development course at Coder Acedemy, in Sydney Australia, and am seeking an opportunity to become a front-end web developer.</p>
+			</div>
+
+			<div class="">
+				<h1 style="" class="main-heading">Skills</h1>
+				<ul class="col-xs-4 skill-list">
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>Boostrap 3/4</li>
+					<li>JavaScript/ ES6</li>
+				</ul>
+				<ul class="col-xs-4">
+					<li>Ruby on Rails 5</li>
+					<li>React.JS</li>
+					<li>Ruby</li>
+					<li>Node.JS</li>
+				</ul>
+				<ul class="col-xs-4">
+					<li>JQuery</li>
+					<li>Git</li>
+					<li>Pair Programming</li>
+					<li>SQL</li>
 				</ul>
 			</div>
 
-			<h4>
-				Bossley Park High School - Sydney, Bossley Park — IT Support February 2013 - July 2013
-			</h4>
-				<ul>
-					<li>Create and deploy an ‘image’ over a network to multiple PCs.</li>
-					<li>Assist when needed.</li>
-					<li>Symple Setting - Construction — Labourer August 2013 - July 2016</li>
-					<li>Lifting and Securing heavy sheets.</li>
-					<li>Keeping floors clean of nails and screws.</li>
-					<li>Other duties as directed.</li>
-				</ul>
-		</div> <!-- /EXP -->
+			<div class="folio">
+				<h1 class="main-heading">Portfolio</h1>
+				<div>
+					<h1>Internship</h1>
+					<p>Dev Hause X, | July 2017 - August 2017</p>
+					<p>Ruby on Rails, HTML5, CSS3, JavaScript, Pair Programming, Deployment.</p>
+				</div>
+				<div>
+					<h1>Project 1 (in Progress)</h1>
+					<p>Portfolio | <a class="linkme" href="https://github.com/AR8Stefan/Portfolio-Version2">github.com/AR8Stefan/Portfolio-Version2</a></p>
+					<p>HTML5, CSS3, Boostrap, FlexBox, JavaScript - ES6</p>
+				</div>
+				<div>
+					<h1>Project 1 (in Progress)</h1>
+					<p>Portfolio | <a class="linkme" href="https://github.com/AR8Stefan/StreetFoodsV2">github.com/AR8Stefan/StreetFoodsV2</a></p>
+					<p>HTML5, CSS3, Boostrap, FlexBox, JavaScript - ES6</p>
+				</div>
+			</div>
 
-		<div class="edu"> <!-- EDU -->
-			<h3><u>EDUCATION</u></h3>
-				<p>Coder Academy - Ultimo, Sydney — Diploma February 2017 - June 2017 - Fast Track.</p>
-				<p>TAFE - Lidcombe, Sydney — Diploma February 2013 - July 2013 - I.T. Networking.</p>
-				<p>TAFE - Ultimo, Sydney — Cert. 3 & 4 February 2012 - December 2012 - I.T. Networking.</p>
-		</div> <!-- /EDU -->
+			<div class="education">
+				<div>
+					<h1>JS30 (Wes Bos)</h1>
+					<p>October 2017 - Present</p>
+					<p>JavaScript - ES6, HTML5, CSS3</p>
+				</div>
+				<div>
+					<h1><a style="text-decoration-style: none; color: #373741" href="https://coderacademy.edu.au/">Coder Academy</a></h1>
+					<p>Feb 2017 - June 2017</p>
+					<p>Software Development Immersive (Full-time)</p>
+				</div>
+				<div>
+					<h1>Team Treehouse</h1>
+					<p>September 2016 - Present | <a class="linkme" href="https://teamtreehouse.com/stefanpiatkov"></a>teamtreehouse.com/stefanpiatkov</p>
+					<p>JavaScript, ES6, HTML5, CSS3, Ruby on Rails, Bootstrap3, FlexBox, Java, Dev Tools</p>
+				</div>
+			</div>
 
-			<a class="linkme" href="STEFAN-PIATKOV-FED-CV-2017.pdf" download="">Download My Resumé</a>
+			<!-- <div> <!-- SKILLS --
+		  	<h3><u>SKILLS & STRENGTHS</u></h3> 
+			  <div class="skill-list">
+			  	<div class="row">
+			  		<div class="skill col-md-6 col-xs-12">
+							<p>Git.</p>
+							<svg class="spin" id="fillgauge1" width="30%" height="150"></svg>
+						</div>
+
+						<div class="skill col-md-6 col-xs-12">
+							<p>HTML5</p>
+							<svg class="spin" id="fillgauge2" width="30%" height="150"></svg>
+						</div>
+
+						<div class="skill col-md-6 col-xs-12">
+							<p>CSS3</p>
+							<svg class="spin" id="fillgauge3" width="30%" height="150"></svg>
+						</div>
+
+						<div class="skill col-md-6 col-xs-12">
+							<p>JavaScript</p>
+							<svg class="spin" id="fillgauge4" width="30%" height="150"></svg>
+						</div>
+
+						<div class="skill col-md-6 col-xs-12">
+							<p>React.JS</p>
+							<svg class="spin" id="fillgauge5" width="30%" height="150"></svg>
+						</div>
+
+						<div class="skill col-md-6 col-xs-12">
+							<p>Ruby</p>
+							<svg class="spin" id="fillgauge6" width="30%" height="150"></svg>
+						</div>
+
+						<div class="skill col-md-6 col-xs-12">
+							<p>Ruby on Rails 5</p> 
+							<svg class="spin" id="fillgauge7" width="30%" height="150"></svg>
+						</div>
+
+						<div class="skill col-md-6 col-xs-12">
+							<p>Teamwork - Agile.</p>
+							<svg class="spin" id="fillgauge8" width="30%" height="150"></svg>
+						</div>
+
+						<div class="skill col-md-6 col-xs-12">
+							<p>Enjoy Challenges & Problem Solving.</p>
+							<svg class="spin" id="fillgauge9" width="30%" height="150"></svg>
+						</div>
+					</div> 
+				</div>
+			</div> --> <!-- /SKL -->
 			
-	</main>
-</div>
+		</div> <!---- /Main Body ---->
+	</body>
+	
+	<a class="linkme" href="STEFAN-PIATKOV-FED-CV-2017.pdf" download="">Download My Resumé</a>
+			
+</div> <!---- /Resumé ---->
 
 	<footer>
 	  <div class="container container-fluid">
@@ -168,9 +276,9 @@
 	  </div><!-- /.container-fluid -->
 	</footer>
 
-</body>
 
-<script language="JavaScript">
+
+<!-- <script language="JavaScript">
     var gauge1 = loadLiquidFillGauge("fillgauge1", 85); // Git
     var config1 = liquidFillGaugeDefaultSettings();
     config1.circleColor = "#FF7777";
@@ -298,6 +406,6 @@
             return (Math.random()*100).toFixed(1);
         }
     }
-</script>
+</script> -->
 
 </html>

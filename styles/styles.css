@@ -16,7 +16,7 @@ NAVIGATION - Navbat
 
 .navbar {
 	border-radius: 0;
-	margin-bottom: 0
+	margin-bottom: 0;
 }
 
 .navbar-default {
@@ -66,13 +66,9 @@ a {
 SKILLS
 ***********************************************/
 
-.skill-list {
-	text-align: center;
-}
-
-.skill-list li {
+/*.skill-list li {
 	line-height: 5rem;
-}
+}*/
 
 .skill {
 	align-content: center;

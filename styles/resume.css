@@ -1,0 +1,110 @@
+/***********************************************
+FONTS, TEXT, COLOURS
+***********************************************/
+
+/*
+#D30082 - Bright Pink
+#373741 - Gray
+*/
+
+.side-part>h1, h2, h3, h4, h5 {
+	/*font-family: 'Overpass Mono', monospace;*/
+	padding-bottom: 20px;
+}
+
+a { 
+    font-family: 'Karla', sans-serif;
+}
+
+#name {
+	font-family: 'Oswald', sans-serif;
+	color: /*#D30082;*/
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	font-size: 3.2em;
+}
+
+#linkedin {
+	font-family: 'Lora', serif;
+}
+
+.my-role {
+	font-family: 'Lora', serif;
+	text-transform: capitalize;
+	font-style: italic;
+	font-size: 1.2em;
+	letter-spacing: 5px;
+}
+
+#linkedin {
+	text-transform: lowercase;
+	letter-spacing: 1px;
+	font-style: none;
+}
+
+.side-heading {
+	font-family: 'Oswald', sans-serif;
+	color: #D30082;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	font-size: 1.8em;
+}
+
+.main-heading {
+	font-family: 'Oswald', sans-serif;
+	color: #373741;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 5px;
+	font-size: 1.8em;
+}
+
+/***********************************************
+General
+***********************************************/
+
+.main-body {
+	
+}
+
+.side-part {
+	margin-bottom: 50px;
+}
+
+.main {
+	background-color: white;
+	color: #373741;
+	display: table-cell;
+	padding: 30px;
+}
+
+.side-section {
+	background-color: #373741;
+	display: table-cell;
+	margin-left: 0px;
+	padding: 30px;
+}
+
+.navbar-default {
+	
+}
+
+.skill-list>ul>li {
+	/*line-height: 30px;*/
+}
+
+li {
+	line-height: 30px;
+}
+
+
+/***********************************************
+Other
+***********************************************/
+
+
+
+/***********************************************
+
+***********************************************/
+
