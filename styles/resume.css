@@ -7,10 +7,10 @@ FONTS, TEXT, COLOURS
 #373741 - Gray
 */
 
-.side-part>h1, h2, h3, h4, h5 {
-	/*font-family: 'Overpass Mono', monospace;*/
+/*.side-part>h1, h2, h3, h4, h5 {
+	font-family: 'Overpass Mono', monospace;
 	padding-bottom: 20px;
-}
+}*/
 
 a { 
     font-family: 'Karla', sans-serif;
@@ -36,6 +36,13 @@ a {
 	letter-spacing: 5px;
 }
 
+
+
+
+/***********************************************
+General
+***********************************************/
+
 #linkedin {
 	text-transform: lowercase;
 	letter-spacing: 1px;
@@ -44,9 +51,10 @@ a {
 
 .side-heading {
 	font-family: 'Oswald', sans-serif;
-	color: #D30082;
+	color: #F50097;
 	text-transform: uppercase;
-	padding-bottom: 5px;
+	padding-bottom: 20px;
+	margin-top: 30px;
 	font-size: 1.8em;
 }
 
@@ -55,21 +63,28 @@ a {
 	color: #373741;
 	text-transform: uppercase;
 	font-weight: bold;
-	padding-bottom: 5px;
+	padding-bottom: 20px;
+	margin-top: 30px;
 	font-size: 1.8em;
 }
 
-/***********************************************
-General
-***********************************************/
-
-.main-body {
-	
+.heading {
+	padding-bottom: 20px;
 }
 
-.side-part {
+.sub-head {
+	font-size: 1.2em;
+	font-weight: bold; 
+	text-transform: uppercase;
+}
+
+a.sub-head {
+	font-size: 1.2em;
+}
+
+/*.side-part {
 	margin-bottom: 50px;
-}
+}*/
 
 .main {
 	background-color: white;
@@ -89,14 +104,26 @@ General
 	
 }
 
-.skill-list>ul>li {
+.skill-list{
 	/*line-height: 30px;*/
+	padding-bottom: 20px;
+}
+
+.download-link {
+	padding: 10px 15px;
 }
 
 li {
 	line-height: 30px;
 }
 
+/*ul {
+	padding-bottom: 30px;
+}*/
+
+.sect {
+	padding-bottom: 10px;
+}
 
 /***********************************************
 Other
