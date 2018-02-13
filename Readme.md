@@ -1,3 +1,3 @@
-## Project in Progress. 
+#### Project in Progress. 
 
-### Sorry for any inconvenience. 
+[Click here to view my Portfolio](https://stefan-folio.herokuapp.com/)
